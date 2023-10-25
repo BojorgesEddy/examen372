@@ -25,3 +25,9 @@ read -p "Introduce la cantidad de archivos a crear:" numfiles
     do
         echo "Archivo ${x}" > "file${x}.txt"
     done
+
+mv ~/examen372/webapp/style.css ~/examen372/webapp/css
+mv ~/examen372/webapp/main.py ~/examen372/webapp/docs/python
+mv ~/examen372/webapp/app.js ~/examen372/webapp/js
+mv ~/examen372/webapp/file*.txt ~/examen372/webapp/docs/text
+mv ~/examen372/webapp/meme.jpg ~/examen372/webapp/img
