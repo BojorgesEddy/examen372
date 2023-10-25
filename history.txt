@@ -1,0 +1,44 @@
+    1  cd ~
+    2  mkdir examen372
+    3  cd examen372/
+    4  touch create.sh
+    5  echo "#! /bin/bash" > create.sh 
+    6  code create.sh 
+    7  git init
+    8  git branch -M main
+    9  git remote add origin https://github.com/BojorgesEddy/examen372.git
+   10  git status
+   11  git add create.sh
+   12  git commit -m "Initial commit, script added"
+   13  git log --oneline
+   14  code create.sh 
+   15  rm -rf webapp
+   16  ./create.sh 
+   17  ./create.sh 
+   18  ./create.sh 
+   19  ./create.sh 
+   20  ./create.sh 
+   21  ./create.sh 
+   22  cmd //c tree //F ./
+   23  ./create.sh 
+   24  ./create.sh 
+   25  ./create.sh 
+   26  cmd //c tree //F ./
+   27  git status
+   28  git add create.sh 
+   29  git commit -m "Second commit, structure created"
+   30  git log --oneline
+   31  ./create.sh 
+   32  cmd //c tree //F ./
+   33  ./create.sh 
+   34  cmd //c tree //F ./
+   35  cd ~/Desktop/Examen/
+   36  cd ~/examen372
+   37  mv ~/Desktop/Examen/examen372.md ~/examen372
+   38  code examen372.md 
+   39  mv examen372.md README.md
+   40  git status
+   41  git add create.sh README.md 
+   42  git commit -m "Third commit, add README.md and final script update"
+   43  git log --oneline
+   44  history > history.txt
